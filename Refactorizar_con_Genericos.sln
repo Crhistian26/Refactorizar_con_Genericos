@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactorizar_con_Genericos", "Refactorizar_con_Genericos\Refactorizar_con_Genericos.csproj", "{7F7786DC-109C-4015-9849-BE0DD0F4D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases", "Clases\Clases.csproj", "{42CEBFE5-FC57-478A-AF89-6587B7EBE520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7786DC-109C-4015-9849-BE0DD0F4D1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7786DC-109C-4015-9849-BE0DD0F4D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7786DC-109C-4015-9849-BE0DD0F4D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7786DC-109C-4015-9849-BE0DD0F4D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CEBFE5-FC57-478A-AF89-6587B7EBE520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CEBFE5-FC57-478A-AF89-6587B7EBE520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CEBFE5-FC57-478A-AF89-6587B7EBE520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CEBFE5-FC57-478A-AF89-6587B7EBE520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
