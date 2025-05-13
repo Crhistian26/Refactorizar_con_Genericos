@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
+    /// <summary>
+    /// La clase AsientoRepository original, la cual depende la clase de <see cref="Asiento"/> en cada uno de sus metodos
+    /// </summary>
     public class AsientoRepository : IAsientoRepository
     {
         public void Agregar(Asiento asiento)

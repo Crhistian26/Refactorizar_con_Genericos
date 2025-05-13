@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clases.Interfaces
 {
+    /// <summary>
+    /// La interfaz para definir un repositorio de Asientos
+    /// </summary>
     internal interface IAsientoRepository
     {
         void Agregar(Asiento asiento);

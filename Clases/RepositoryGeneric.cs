@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
+
+    /// <summary>
+    /// Repositorio generico para definir un repositorio generico, cuyo unico requisito es que el elemento a gestionar sea una clase y utilice la interfaz de <see cref="IGeneric"/>
+    /// </summary>
+    /// <typeparam name="T">Clase con la interfaz de <see cref="IGeneric"/> a gestionar</typeparam>
     public class RepositoryGeneric<T> : IRepository<T> where T : class, IGeneric
     {
         List<T> Elements { get; set; }

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clases.Interfaces
 {
+    /// <summary>
+    /// Interfaz generica para definir un repositorio generico
+    /// </summary>
+    /// <typeparam name="T">La clase que se usara en las gestiones</typeparam>
     internal interface IRepository<T>
     {
         void Agregar(T entity);

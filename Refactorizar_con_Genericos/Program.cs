@@ -29,8 +29,6 @@ namespace Refactorizar_con_Genericos
 
             repo.Actualizar(A4);
 
-
-
             string elemento = JsonSerializer.Serialize(repo.ObtenerPorId(A3));
             Console.WriteLine("\nElemento con id 3:\n\n" + elemento + "\n\n");
 
